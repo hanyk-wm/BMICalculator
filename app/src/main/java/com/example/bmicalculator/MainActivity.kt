@@ -49,6 +49,8 @@ class MainActivity : AppCompatActivity() {
         }catch(e:Exception){
             val toast:Toast = Toast.makeText(this, "Invalid Input", Toast.LENGTH_LONG)
             //catch
+
+            
         }
     }
 
