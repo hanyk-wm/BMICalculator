@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             imm.hideSoftInputFromWindow(view.windowToken, 0)
         }catch(e:Exception){
             val toast:Toast = Toast.makeText(this, "Invalid Input", Toast.LENGTH_LONG)
-
+            //catch
         }
     }
 
